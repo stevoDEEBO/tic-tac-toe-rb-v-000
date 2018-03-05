@@ -81,12 +81,10 @@ def winner(board)
 end
 
 def play(board)
-  #push "Please input 1-9"
-  #tTT_plays = 0
-  #over?(board)
-  
+  over?(board)
 
-  
+
+
 	#while tTT_plays < 9
 	#	tTT_plays += 1
 	#	turn(board)
