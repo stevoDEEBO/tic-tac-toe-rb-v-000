@@ -83,13 +83,11 @@ end
 def play(board)
   until over?(board)
     turn(board)
+  end
 
-
-
-
-
-	#while tTT_plays < 9
-	#	tTT_plays += 1
-	#	turn(board)
-	#end
+  if won?(board)
+    puts "Congratulations X!"
+  else
+    puts "Cats Game!"
+    
 end
